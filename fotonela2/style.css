@@ -1,0 +1,12 @@
+/*
+Theme Name: Fotonela Versi 2
+Theme URI: 
+Description: None
+Author: KodeBonek
+Version: 1.0
+*/
+
+body { font-family: 'Roboto',Verdana;}
+#header .navbar-default { background-color: #24262b; color: #fff;}
+#footer { background-color: #24262b; color: #fff; }
+#footer p { font-size: 12px; }

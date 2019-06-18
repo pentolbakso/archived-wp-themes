@@ -1,0 +1,15 @@
+jQuery(document).ready(function() {
+
+	$(".gateway").fancybox({
+		ajax : {
+		    type	: "POST",
+		    data	: 'mydata=test'
+		},
+		'padding' : 10,
+		'overlayOpacity' : 0.0,
+		'overlayColor' : '#000',
+		'modal' : true
+		
+	});
+
+});

@@ -1,0 +1,60 @@
+/*
+Theme Name: mp3jojo
+Theme URI: 
+Description: premium responsive wordpress theme
+Author: Someone
+Version: 1.0
+*/
+
+body { font-family: "Helvetica","Cousine"; background-color: #222; background-image: url(tasky_pattern.png); background-repeat: repeat; }
+a { color: #555;}
+#main { background-color: #fff; color: #222; padding: 0px 10px;}
+.well { background-color: #fff; border: 1px solid #ccc;}
+h1,h2,h3,h4 { color: #111; font-family: "Impact"}
+h2 { font-size: 20px; letter-spacing: 1px; color: #555; line-height: 20px; }
+h3 { font-size: 18px; color: #555;}
+.mediainfo { font-size: 12px; }
+.mediainfo .btn { padding: 1px 5px; font-size:12px; color: #fff; }
+.btn-play { background-color: #6B7459; padding: 1px 3px; display:inline;}
+.btn-download { background-color: #BF9056; padding: 1px 3px; display:inline;}
+.btn-share { background-color: #4F595A; padding: 1px 3px; display:inline;}
+.table-result tr:hover { background-color: #eee; }
+#player { padding:10px; background-color: #fff; text-align:center }
+#playerinfo { padding: 10px; background-color: #fff; text-align: center; }
+#playerinfo .btn { color: #fff;}
+
+#footer { margin: 40px 0 10px; padding: 10px 0; border-top: 1px solid #ddd; font-size: 13px;}
+#footer ul { list-style-type: none; margin: 0px; padding: 0px;}
+#footer li { float: left; margin-right: 10px;}
+#footer p { color: #aaa; font-size: 12px; letter-spacing: 0px; line-height: 12px; }
+
+#artists { text-align: center; margin:0px auto; max-width: 880px;}
+#artists li { float:left; }
+#artists li img { width: 80px; height:80px; opacity: 0.8; }
+#artists li img:hover { 
+zoom: 1;
+filter: alpha(opacity=50);
+opacity: 0.5;
+-webkit-transition: opacity .3s ease-in-out;
+-moz-transition: opactiy .3s ease-in-out;
+-ms-transition: opacity .3s ease-in-out;
+-o-transition: opacity .3s ease-in-out;
+transition: opacity .3s ease-in-out;
+opacity:1; }
+
+#sidebar .well { padding: 10px; }
+#sidebar h3 { line-height: 20px; margin:5x 0; border-bottom: 1px solid #ddd;}
+
+.well-search { background-color: #BF9056; text-align:center; padding: 5px; margin-bottom: 40px; background-image: url(bgsearch.png); background-repeat: repeat; }
+.well-search .form-search { margin: 5px 0 10px;}
+
+.muted { text-align: center; font-style: italic; }
+blockquote p { font-size: 14px; padding: 0px; }
+blockquote { padding: 5px 10px; margin: 5px 0;}
+
+div #social { margin: 10px 0; }
+div .fb-like { margin-right: 20px; }
+div .plusone, .twitter, .fb-like { font-size: 1px; display: inline-block; }
+div .fb_reset { display: inline; } 
+
+

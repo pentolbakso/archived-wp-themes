@@ -1,0 +1,94 @@
+
+/*
+Theme Name: BestMemoryCard 2
+Theme URI: http://youdontwanttoknow.com
+Description: BestMemoryCard 2 Custom WP-Theme
+Author: Ayah&RaraNela
+Version: 1.0
+*/
+
+body { 
+	font-family: 'Monda','Georgia';
+	background-image: url(use_your_illusion.png); 
+	background-repeat: repeat;
+	font-size: 15px;
+}
+
+h1,h2,h3,h4 { font-family: 'Bree Serif','Tahoma'; color: #444;}
+h3 small { color: #888; }
+h1 { color:#000;}
+h3 { font-size: 20px;}
+
+#main {
+	background-color: #fff;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+
+.searchbox {
+	padding-top: 50px;
+	margin: 0px auto;
+}
+
+a.thumbnail { background-color: #fff; height: 200px;}
+a.thumbnail img { width: 150px; height: 150px;}
+a.thumbnail p { text-align: center; font-weight: bold;}
+a.thumbnail:hover { background-color: #fff; border: 1px solid #007fff;}
+
+a.cardthumbnail { background-color: #fff; height: 300px;  text-align:center; }
+a.cardthumbnail img { width: 90px;}
+a.cardthumbnail.badge { color: #444;}
+
+.recommend { border: 1px solid #ddd;}
+.recommend img { width: 100px; height: 110px; float: left;}
+.recommend ul { list-style-type: none; padding-left: 5px; margin: 5px 0;}
+
+#supportedcards td { padding: 10px 15px;}
+
+.posttitle { margin: 20px 0 0 0; }
+.postmeta { padding-bottom: 5px; border-bottom: 2px solid #ddd;}
+.alignleft { float: left;}
+.alignright { float: right;}
+
+.help-block { font-size: smaller;}
+
+.nav { margin-bottom: 0px;}
+.tab-content { padding: 20px 10px; border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd;}
+.nav-tabs .active a { color: #444; font-weight: bold; }
+
+/**** FOOTER *****/
+#footer {
+	margin-top: 50px;
+	border-top: 1px solid #ddd;
+	padding-top: 5px;
+	text-align: center;
+	//margin-bottom: 0px;	
+	font-size: 12px;
+}
+#footer ul {
+	list-style-type: none;
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+}
+#footer li {
+	display: inline;
+	margin-left: 5px;
+}
+#footer a {
+	color: #4c4c4c;
+}
+#footer a:hover {
+	text-decoration:underline;
+}
+
+#social { margin: 10px 0;}
+
+div .fb-like { margin-right: 20px; }
+
+div .plusone, .twitter, .fb-like {
+    font-size: 1px;
+    display: inline-block;
+}
+div .fb_reset {
+    display: inline;
+} 

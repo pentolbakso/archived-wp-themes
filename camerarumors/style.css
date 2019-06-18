@@ -1,0 +1,291 @@
+/*
+Theme Name: CameraRumors
+Theme URI: http://youdontwanttoknow.com
+Description: CameraRumors Custom WP-Theme
+Author: Ayah&RaraNela
+Version: 1.0
+*/
+
+body
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color:#111;
+	font-family: 'Monda';
+	color:#bbb;	
+	background-image: url(use_your_illusion.png); 
+	background-repeat: repeat;
+
+}
+a { color: #bf5f00; }
+a:hover { color: #FF7F00; }
+
+#wrapper{
+	width: 950px;
+	margin: 0px auto;
+	background-color: #000;
+}
+
+/* HEADER , MENU ------------ */
+#header{
+	margin-top: 25px;
+}
+#navbar{
+	height: 80px;
+	background-color: #9c9c9c;
+	line-height: 80px;
+}
+#navbar h1 a{
+	text-decoration: none;
+	color:#fff;
+}
+#navbar ul{
+	margin:0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#navbar ul li {
+	float: left;
+	padding: 0 12px;
+	font-size: 18px;
+}
+#navbar ul li a{
+	color:#fff;
+	text-decoration: none;
+	margin:0px;
+	text-shadow: 0px 0px 1px #fff, 1px 1px 1px #000;
+	opacity: 0.7;
+	letter-spacing: 1px;	
+}
+#navbar h1 {
+	text-decoration: none;
+	margin:0px;
+	font-size: 30px;
+	text-shadow: 0px 0px 1px #fff, 1px 1px 1px #000;
+	opacity: 1;
+	letter-spacing: -2px;	
+}
+#featured {
+	height: 20px;
+	background-color: #070707;
+}
+/** POST CONTENT --------------- */
+#main{
+	float: left;
+	width: 650px;
+}
+.post{
+	padding: 20px;
+}
+.entry{
+	line-height: 22px;
+	font-size:15px;
+}
+.entry a {
+	text-decoration: none;
+	border-bottom: 1px dotted #aaa;
+}
+.entry img { margin: 15px 0; }
+
+.post h2 {
+	margin: 5px 0;
+}
+.post-header{
+	font-size: 13px;
+}
+.post-meta {
+	padding: 1px 5px;
+	background-color: #333;
+	margin-right: 5px;
+	color: #888;
+	border-bottom: 1px solid #555;
+	border-right: 1px solid #555;
+}
+.date-meta {
+	padding: 0px 5px;
+	background-color: #333;
+	margin-right: 5px;
+	color: #888;
+	border-bottom: 1px solid #555;
+	border-right: 1px solid #555;
+	font-size: 13px;
+}
+.post-meta a {
+	color: #888;
+	text-decoration: none;
+}
+.relatedkw {
+	font-size: 13px;
+}
+.relatedkw a { color: #555; }
+
+.wp-caption { margin: 5px; }
+.wp-caption p { margin: 0px; font-size: 13px; text-align: center; color: #888;}
+.wp-caption img { margin: 0px !important; }
+
+/** COMMENT ------------------*/
+#respond {
+	margin-top: 20px;
+	padding: 10px 20px;
+	color: #555;
+	font-size: 13px;
+	background-color: #070707;
+}
+#respond input,textarea {
+	background-color: #0C0C0C;
+	color: #bbb;
+	border:none;
+	padding: 5px;
+	font-family: "Monda";
+	width: 600px;
+}
+#respond p { margin: 5px 0; }
+
+#responddata {
+	padding: 0 20px 20px 20px;
+	color: #555;
+	font-size: 13px;
+}
+.commentlist {
+	margin: 0px;
+	padding: 0px;
+	list-style-type:none;
+}
+#respond .formbutton {
+	padding: 5px 20px;
+	width: 200px;
+	color: #BF5F00;
+}
+
+/*** PAGE NAVIGATION ----------- */
+.pagenavi {
+	padding: 20px;
+}
+.pagenavi a {
+	color: #888;
+	padding: 5px 10px;
+	background-color: #333;
+	border-bottom: 1px solid #555;
+	border-right: 1px solid #555;
+}
+.alignleft { float: left; }
+.alignright { float: right; }
+
+/* SIDEBAR & BOX -------------- */
+#sidebar{
+	float:right;
+	width: 300px;
+	background-color: #0c0c0c;
+	font-size: 13px;
+}
+#sidebar ul {
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+.sidebar-box{
+	padding: 10px;
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+.sidebar-box a{
+	color: #555;
+}
+.sidebar-box a:hover {
+	color: #FF7F00;
+}
+.sidebar-box ul { 
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+.sidebar-box ul li { 
+	margin-bottom: 5px;
+}
+.tagcloud {
+	line-height: 22px;
+}
+.tagcloud a {
+	margin-right: 5px;
+}
+#searchform {
+	background-color: #333;
+}
+#searchform input {
+	padding: 5px;
+	background-color: #333;
+	color: #ccc;
+	border:none;
+	font-family: 'Monda';
+}
+/** FOOTER --------------------- */
+#footer{
+	font-size: 13px;
+	color: #555;
+	padding-top:10px;
+	text-align: right;
+	background-color: transparent; 
+	width: 600px;
+	float:right;
+	margin-bottom: 10px;
+}
+#footer p { margin:0px; }
+#footer ul { margin: 0px; padding:0px; list-style-type:none; }
+#footer li {
+	float:right;
+	padding: 0px;
+	margin-right: 8px;
+}
+
+#pricepage {
+	width:100%;
+	padding: 20px;
+}
+#pricetable {
+	width: 900px;
+	#margin: 0px auto;
+}
+#pricetable td
+{
+	padding: 10px 5px;
+	border: 1px dashed #111;
+}
+.priceitem {
+	background-color: #151515;
+	padding: 0 0 0 5px;
+	margin: 5px 10px 5px 0;
+	width: auto;
+	float:left;
+	font-size: 14px;
+}
+.priceitem .theprice {
+	background-color: #111;
+	padding: 0px 5px;
+	font-style: italic;
+}
+#pricehistory td {
+	padding: 2px 10px;
+	border: 1px solid #111;
+}
+#pricehistory {
+	width: 400px;
+	font-size:18px;
+	font-family: 'Monda';
+	margin-bottom: 20px;
+	color: #626262;
+}
+.calltoaction {
+	background-color: #3f7f00;
+	padding: 5px 20px;
+	text-align: center;
+	font-weight: bold;
+	width: 260px;
+	border-right: 1px solid #5fbf00;
+	border-bottom: 1px solid #5fbf00;
+	font-size: 22px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.calltoaction a { color: #fff; }
+.calltoaction a:hover {	color: #FF7F00; }
+

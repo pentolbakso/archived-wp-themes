@@ -1,0 +1,134 @@
+/*
+Theme Name: CompareCamera
+Theme URI: http://youdontwanttoknow.com
+Description: Comparing Camera
+Author: Cikonel
+Version: 1.0
+*/
+body { font-family: 'Ubuntu',Verdana; color: #444;}
+h1 { margin: 15px 0;}
+h4 { font-size: 20px; letter-spacing: 1px; }
+h1,h2,h3,h4,h5 { font-family: 'Arbutus Slab', Helvetica; }
+.subheadline a {	color:#d60500; }
+.subheadline a:hover { color: #fb1a04; }
+.navbar { background: url(bg-footer2.jpg) #111; color:#fff; border-bottom: none;}
+.one-edge-shadow {
+	-webkit-box-shadow: 0 6px 10px -6px #999;
+	   -moz-box-shadow: 0 6px 10px -6px #999;
+	        box-shadow: 0 6px 10px -6px #999;
+}
+
+.box { background-color:#eee;  border-radius: 6px;  padding: 20px; }
+.table td.left { text-align: right; border-right: 1px solid #ccc; width:50%; }
+.table td.right { text-align: left;  }
+.review { padding: 5px; background-color: #eee; margin-bottom: 10px; color: #666; border-radius: 5px; moz-border-radius: 5px; }
+.reviewinfo { #background-color: #ddd; font-style:normal font-size: 13px; }
+.videothumbnails { text-align: right; list-style-type: none; padding: 0; margin: 0; }
+.videothumbnails li { width: 200px; float: left; margin: 0 10px 10px 0; }
+.videothumbnails li.left { width: 200px; float: right; margin: 0 0 10px 10px; }
+.videothumbnails .caption { text-align:center;font-size:13px; }
+
+.modal.noborder { border: 0px; width: auto; }
+.photothumbnails,.otherthumbnails { text-align: right; list-style-type: none; padding: 0; margin: 0; }
+.photothumbnails li { float: left; margin: 0 10px 10px 0; }
+.photothumbnails li.left { float: right; margin: 0 0 10px 10px; }
+.otherthumbnails li { float: left; margin: 0 10px 10px 0; }
+.otherthumbnails li.left { float: right; margin: 0 0 10px 10px; }
+td.better { background-color: #c2fc88; }
+.table td { border-bottom:none ;}
+
+/**** SPECS *****/
+
+.table-specs { width: 70%; }
+.table-specs td { padding: 2px 5px !important; }
+/*.table-specs td:hover { background-color: #ddd; }*/
+.table-specs .group { text-align:center; padding-top:10px; font-family: 'Arbutus Slab', Helvetica; font-weight: bold; font-size: 15px; letter-spacing: 1px; }
+.table-specs td.left { text-align:right;padding-right:30px;width:35%; border-right: 1px solid #ddd; color:#555; }
+.table-specs td.right { text-align:left;padding-left:30px;width:35%; border-left: 1px solid #ddd;  color:#555;}
+.table-specs td.mid { text-align:center;background-color:#eee;width:30%; }
+
+/**** FOOTER *****/
+#footer h4 { color: #666;}
+#footer { background-color: #000; color: #4c4c4c; background: url(bg-footer2.jpg) #111; text-align:center; margin-top:40px; }
+#footer-links { list-style-type: none; margin: 5px 0px 0px 0px; padding: 0px; }
+#footer-links li { display: inline; margin-left: 10px; }
+#footer-links a { color: #555; }
+#footer-links a:hover { text-decoration:underline; }
+
+.comparisons { list-style-type: none; padding:0px; }
+.comparisons a { color: #555; }
+.comparisons a:hover { text-decoration:underline; }
+
+.social-button-container { overflow: hidden;  background-color:#fff; text-align:center; margin: 0px auto; padding: 5px 0; }
+
+h4.subheadline { margin: 0; }
+
+#specifications table, #expert-review table, #customer-review table,
+#video-review table, #sample-photo table, #sample-video table, #learning table, #accesories table { margin-top: 8px; }
+
+#price p { margin-top: 8px; }
+#summarycontent { margin: 8px auto; width: 60%; text-align: justify; }
+
+.typeahead { z-index: 9999; }
+
+.alert { margin: 20px auto 0; width: 60%; }
+
+.comparebox { text-align: center; margin: 80px auto 30px; }
+.comparebox p { margin-top: 10px; }
+.comparebox-modal { text-align: center; margin: 30px auto; }
+.comparebox-modal p { margin-top: 10px; }
+.form-compare { padding: 30px;}
+
+.na { color:#aaa; font-size:85% }
+
+/* BLOG */
+
+#pagecontent { margin: 50px auto 20px; width: 60%; text-align: justify; }
+
+.post h2 { margin-bottom: 2px; }
+.post .entry { margin: 15px 0; }
+.post .post-header { padding-bottom: 5px; border-bottom: 1px solid #eee; }
+
+.modal-dialog { min-width: 600px !important;}
+.modal-content h3 { margin:0 0 10px; padding-bottom:5px; border-bottom: 1px solid #ccc; }
+
+.incorrect { font-size:11px; margin: 0px 15px; color: #999;}
+
+.label-count { background-color: #e5e5e5; color: #999; font-size: 11px; margin: 0 10px; vertical-align: middle; }
+
+.btn-shopping { font-size: 20px; padding: 10px 20px;}
+
+/* TYPEAHED **/
+.typeahead,
+.tt-query,
+.tt-hint { 
+	padding: 8px 12px;
+	font-size: 24px;
+	line-height: 30px;
+	border: 2px solid #ccc;
+	-webkit-border-radius: 8px;
+	 -moz-border-radius: 8px;
+	      border-radius: 8px;
+	outline: none;
+}
+
+.typeahead { background-color: #fff; }
+.typeahead:focus { border: 2px solid #0097cf; }
+.comparebox .tt-query {	vertical-align: baseline !important; width: 300px; z-index: 100 !important; }
+.comparebox-modal .tt-query { vertical-align: baseline !important; width: 220px; }
+.comparebox-modal .tt-hint { width: 220px; }
+
+.tt-hint { color: #bbb }
+.tt-dropdown-menu { 
+	margin-top: 12px;
+	padding: 8px 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 8px;
+	 -moz-border-radius: 8px;
+	      border-radius: 8px;
+}
+.tt-suggestion { padding: 3px 20px; font-size: 18px; line-height: 24px; }
+.tt-suggestion.tt-is-under-cursor { color: #fff; background-color: #0097cf; }
+.tt-suggestion p { margin: 0; }

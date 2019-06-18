@@ -1,0 +1,52 @@
+/*
+Theme Name: AnakCeria
+Theme URI: 
+Description: None
+Author: KodeBonek
+Version: 1.0
+*/
+
+@media (min-width: 1200px) {
+    .container{
+        max-width:1000px;
+    }
+}
+
+body { font-family: 'Roboto','Arial'; background-color: #fff; }
+
+h1,h2,h3,h4,h5,a.btn,.navbar-brand,.navbar-nav a,#ourprogram { font-family: 'Sniglet'; } 
+
+.navbar-default { background-color: #fff; border:none; }
+a.navbar-brand { font-size: 40px; font-weight: bold; letter-spacing: -1px; color:#444 !important;}
+.nav li a { padding-left: 10px !important; padding-right: 10px !important; }
+.navbar-default .navbar-nav li { font-size: 18px;}
+.navbar-default .navbar-nav li.active a { color: #000; }
+.navbar-default .navbar-nav li a { color: #666; }
+.navbar-default .navbar-nav li a:hover { color: #000; }
+
+#header { margin-top: 20px;}
+#intro { background-color: #FF4000; padding: 20px 0; color: #fff; background-image: url(bg-intro.png); 
+	background-repeat: repeat;
+}
+#intro h1 { margin-top: 0px; }
+#features { margin-top:20px; background-color: #fff; padding: 10px 0;}
+#features h2 { margin-top: 0px;}
+#features .thumbnail { border: none;}
+#ourprogram { font-size: 24px; line-height: 40px; color: #666; margin-bottom: 20px; }
+.highlightme { background-color:#FFFF00; font-style: italic; padding: 1px 5px;}
+#activity { margin:0px; background-color: #fff; padding: 10px 0;}
+#activity h2 { margin-top: 0px;}
+#activity ul { font-size: 18px; color: #888;}
+#activity .thumbnail { border: none;}
+#activity .thumbnail .caption { padding: 10px 0;}
+#address h2 { margin-top: 0px;}
+#address { background-color: #D8F781; padding: 10px 0 20px;}
+
+#footer { font-size: 13px; background-color: #3B240B; padding:10px;  }
+#footer p { color: #ccc; font-size: 12px; letter-spacing: 0px; line-heightx: 14px; }
+#footer a { color: #bbb;}
+#footer h4 { color: #ccc;}
+.sosmed { font-size: 40px;}
+#kodebonek { color: #FFBF00 !important; border-top: 1px dotted #5F4C0B; padding-top: 5px; font-size: 11px !important;}
+button.close { background-color: #428bca; color: #fff; padding: 5px; opacity: 1;}
+#map-canvas { height: 350px; margin: 0px; padding: 0px; }
